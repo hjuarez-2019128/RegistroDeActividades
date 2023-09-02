@@ -1,0 +1,5 @@
+Esta metodologia nace de la tradicional
+
+-gran capacidad respuesta a cambios
+-Busca mejor tecnica y diseño para mejor calidad
+-Se quita documentación s
