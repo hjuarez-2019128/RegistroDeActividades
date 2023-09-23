@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KinalGym</title>
+    <link rel="icon" href="image/GYM_logo.png">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body ng-app="Prueba">
+    <div class="container-fluid fondo1">
+        <div class="row">
+            <div class="col">
+                <nav class="navbar navbar-expand-md colorWhite">
+                    <div class="container-fluid ">
+                        <img class="navbar-brand tamano" src="image/GYM_logo.png" alt="KinalGym">KYNALGYM
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <span class="nav-link active colorWhite" ui-sref="Inicio">Inicio</span>
+                                </li>
+                                <li class="nav-item">
+                                    <span class="nav-link colorWhite" ui-sref="Membresia">Membresia</span>
+                                </li>
+                                <li class="nav-item">
+                                    <span class="nav-link colorWhite" ui-sref="Horarios">Horarios de Clase</span>
+                                </li>	
+                                <li class="nav-item">
+                                    <span class="nav-link colorWhite" ui-sref="llamada">Contactanos</span>
+                                </li>	
+                                <li class="nav-item">
+                                    <a class="nav-link colorWhite" href="templates/Información.html">Información</a>
+                                </li>	
+                            </ul>		  
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Segundo contenedor decorativo -->
+    <div ui-view>
+
+    </div>
+    <script src="lib/angular.min.js"></script>   
+    <script src="js/script.js"></script>
+    <script src="lib/ui-router.min.js"></script> 
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+</body>
+</html>

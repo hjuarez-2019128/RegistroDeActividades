@@ -1,0 +1,234 @@
+
+.tamano{
+    width: 80px;
+    height: 80px;
+    left: 0 !important;
+}
+
+.fondo1 {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #201f26;
+}
+
+.MembresiasFondo{
+    background-color:  white ;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+}
+
+.fondoMembresia {
+    background-color: #040404 ;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+}
+
+.colorWhite {
+    color: #FFF !important;
+}
+
+.ImagenSede{
+    width: 150px;
+    height: 150px;
+    background: url("../image/Kinalero.png")no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position-y: top;  
+    float: right;
+    padding-right: 30%;
+}
+
+
+.fondo{
+    width: 100%;
+    height: 400px;
+    background: url("../image/GYM.jpg")no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position-y: top;  
+    
+}
+.fondoSede{
+    width: 35%;
+    height: 45px;
+    background: url("../image/Sede.png")no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position-y: top;  
+}
+
+.Membresia{
+    width: 100%;
+    height: 400px;
+    background: url("../image/gimnasio.jpg")no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position-y: top;
+    
+}
+
+.Contacto{
+    width: 100%;
+    height: 400px;
+    background: url("../image/Ejercicio.jpg")no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position-y: top;
+    
+}
+
+.ImagenHorario{
+    width: 100%;
+    height: 400px;
+    background: url("../image/Pesas.jpg")no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position-y: top;
+}
+
+.texto{
+    padding: 2%;
+    font-weight: 900 ;
+    border: 8px dashed #FFF;
+    font-size: 35px;
+    text-align:center;
+    color: #FFF !important;
+}
+
+.centrado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.texto2{
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 800;
+    font-style: normal;
+    
+}
+
+.textoMembresia{
+    padding: 2%;
+    font-weight: 100 ;
+    font-size: 34px;
+    text-align:left;
+    color: #FFF !important;
+    font-family: raleway;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bolder;
+    
+}
+
+.textoBlack{
+    padding: 2%;
+    font-weight: 100 ;
+    font-size: 34px;
+    text-align:left;
+    color: black;
+    font-family: raleway;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bolder;
+    
+}
+
+
+.padding{
+    padding: 0 !important;
+}
+
+
+.elemento{
+    color: #ffffff;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 900;
+    font-style: normal;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+
+.elemento2{
+    color: #ffffff;
+    font-family: Raleway;
+    font-style: normal;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0%;
+    text-align: justify;
+    font-weight: bolder;
+    
+}
+
+.elemento3{
+    color:#040404;
+    font-size: 20px;
+    font-family: Raleway;
+    font-style: normal;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0%;
+    text-align: left;
+    font-weight: bolder;
+    display:  flex;
+    
+}
+
+.fondo2{
+    background-color: #201f26;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+}
+
+.Historia{
+    background-color: #0b0b0c;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+}
+
+.horariosFondo{
+    padding-left: 10%;
+    background-color: #201f26;
+    padding-right: 10%;
+}
+
+.texto-membresia{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.diseno{
+    display: flex;
+}
+
+.imagen-membresia{
+    width: 200px;
+    height: 200px;
+}
